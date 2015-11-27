@@ -1,0 +1,12 @@
+Post:
+  title: Post $string
+  body: $text
+Tag: 
+  name: Tag $string
+  description: $text
+Resource:
+  name: $string
+  description: $text
+  url: "http://laravel.com/"
+  level: "10.3"
+  faculty: "Computer Science"  

@@ -1,0 +1,49 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.jumbo{
+    padding:10px 5px;
+    margin:10px 4px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background:#428bca;
+    color:#fff;
+    text-align: center;
+    -webkit-box-shadow: 14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.jumbo:hover{
+    background:#377CED;
+    -webkit-box-shadow: 12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+}
+.jumbo a:hover{
+    text-decoration: none !important;
+}
+.back-end{
+    background:#f8f8f8;
+    padding:10px;
+}
+    
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+   .back-end{
+        padding:30px;
+    }
+    .jumbo{
+        padding:30px;
+        margin:30px;
+        -webkit-border-radius: 60px;
+        -moz-border-radius: 60px;
+        border-radius: 60px;   
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }

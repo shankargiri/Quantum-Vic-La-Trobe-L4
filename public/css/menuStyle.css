@@ -1,0 +1,39 @@
+.menuBar
+{
+	padding-top: 10px !important;
+	
+
+}
+
+.services li
+{
+	margin-bottom: 10px;
+}
+.header
+{
+	margin-bottom: 5px;
+}
+.content
+{
+	padding: 25px;
+}
+.footer
+{
+	height: 50px;
+	background-color:black;
+	color: white;
+	padding-top: 15px;
+}
+
+.comment1
+{
+	
+	height: 150px !important;
+}
+.row h3
+{
+	color: gray;
+	margin-bottom: 15px;
+	font-style: italic;
+	font-family: cursive;
+}

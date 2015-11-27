@@ -1,0 +1,100 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+.padding-zero{
+  padding:0px !important;
+}
+#sidebar-nav{
+  padding-left:10px;
+}
+#sidebar-nav .icon-bar{
+  background:#ccc !important;
+}
+#navbar{
+  margin-bottom:0px;
+  background:#eee
+}
+.padding-ten{
+  padding:10px;
+}
+.right-content{
+  margin-left:10px;
+  border:1px solid #eee;
+  padding-bottom:10px;
+}
+.top-banner{
+  height:50px;
+  margin-left:10px;
+  padding:5px;
+  background:whitesmoke;
+}
+#container{
+  max-width:1160px;
+  margin:0px auto;
+}
+.top-pad{
+  padding-top:20px;
+}
+.page-heading{
+  background:#2d6ca2;
+  color:#fff;
+  padding:10px;
+  text-align: center;
+  font-size:20px;
+}
+.divider{
+  border-bottom: 1px dotted #ccc;
+}
+.sidebar-nav .navbar li a{
+  padding-top:8px;
+  padding-bottom: 8px;
+}
+.add-option-wrapp{
+  padding-top:10px;
+}
+.tagnames{
+  padding:10px 0px;
+}
+.tag_tooltip{
+  margin:4px;
+}
+.photo{
+  position: relative;
+  text-align: center;
+}
+.imgDef{
+  height: 100%;
+  padding: 45px 10px;
+  position: absolute;
+  visibility:hidden;
+   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  opacity: 0;
+}
+.photo:hover .imgDef
+{
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,273 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.row
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	clear: both;
+}
+
+a{
+	color: white !important;
+}
+a:hover
+{
+	color:silver !important;
+}
+
+.links .para
+{
+	margin-top: 6% !important;
+
+}
+.page1
+{
+	background:url(../img/bg_top1.jpg) top repeat-x ;
+	height: 85%;
+	min-height: 550px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+
+}
+.para
+{
+	font-size:2.91em; 
+	text-align:center;font-family: 'Shadows Into Light', cursive;
+	text-transform:uppercase;
+}
+.globe
+{
+	background:url(../img/bg_top_img1.jpg) top center no-repeat;
+	
+	height: 100%;
+}
+.links
+{
+	margin-top: 2%;
+	margin-left: 3%;
+	padding-right:3% !important;
+}
+li .col-md-1
+{
+	background:url(../img/english1.png);
+	border:2px solid white;
+	border-radius: 10px;
+	height: 84px;
+}
+.description
+{
+	font-size:20px; 
+	font-family: 'Open Sans', sans-serif;
+}
+.description img
+{
+	padding-right:5px; 
+	float:right;
+}
+li a:hover img {
+   -webkit-transform: rotate(360deg) scale(1);
+   -moz-transform: rotate(360deg) scale(1);
+   -o-transform: rotate(360deg) scale(1);
+   -ms-transform: rotate(360deg) scale(1);
+   transform: rotate(360deg) scale(1);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+
+li img {
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease-out;
+   -o-transition: all 0.5s ease-out;
+   -ms-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+.jumbo{
+	
+    padding:10px 5px;
+    padding-top: 2.5%;
+    
+    margin:15px 4px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background:#428bca;
+    color:#fff;
+    text-align: center;
+    -webkit-box-shadow: 14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         14px 14px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.jumbo:hover{
+    background:#377CED;
+    -webkit-box-shadow: 12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         12px 12px 8px 0px rgba(50, 50, 50, 0.75);
+}
+.list-unstyled a:hover{
+    text-decoration: none !important;
+}
+
+
+
+/*News and resources Column */
+
+.newsUpdates
+{
+	padding-left: 25px !important;
+	background: #ecf0f1;
+	font-family: cursive;	
+}
+.newsUpdates h4
+{
+	color:#3498db;
+	padding-top: 2px; 	
+}
+.newsUpdates ul
+{
+	list-style: none;
+	padding-left: 0px !important;	
+}
+.newsUpdates li
+{
+	min-height: 72px;	
+}
+.latestNews 
+{
+	padding: .5em 1.2em !important;
+}
+.date span
+{
+	font-size: 2em !important;
+	padding: 28px 0px 0px 0px;
+	margin-left: -11px;
+}
+.date
+{
+	padding-top: 6px;
+	padding-left:11px;
+	height: 72px;
+	width: 72px;
+	background: url(../img/date.gif) no-repeat ;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	margin-right: 0.5em;
+}
+
+.latestNews
+{
+	margin: 1.8em 1.8em .8em 0em;
+	background: white;
+	border-radius: 10px;
+	min-height: 39em;
+}
+ .more a
+ {
+ 	float: right;
+ 	background: #3498db;
+ 	border: 3px solid #ecf0f1;
+ 	border-radius: 10px;
+ 	padding: .4em 1em;
+
+ }
+ .more a{
+ 	color: white !important;
+ }
+ .more a:hover
+ {
+ 	background: #f1c40f;
+ 	color: white !important;
+ }
+
+/* end News and resources Column */
+
+
+/* Revolving balls*/
+.top-demo
+{
+	padding: 0px 19px !important;
+}
+.top-demo div
+ { 
+	background: #ccc; width: 80px; height: 80px; 
+	float: left;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	text-align: center;
+ }
+.top-demo div:nth-child(n) { background: #34495e; }
+.top-demo div:nth-child(n+1) { background: #e74c3c; }
+.top-demo div:nth-child(n+2) { background: #27ae60; }
+.top-demo div:nth-child(n+3) { background: #8e44ad; }
+.top-demo div:nth-child(n+4) { background: #16a085; }
+.top-demo div:nth-child(n+5) { background: #e67e22; }
+.top-demo div:nth-child(n+6) { background: #f1c40f; }
+.top-demo div:nth-child(n+7) { background: #FF6699; }
+.top-demo div:nth-child(n+8) { background: #f39c12; }
+.top-demo div
+{
+	margin-left: 5px;
+	margin-top: 4px;
+	margin-right: 2px;
+}
+
+.game
+{
+	padding-top: 1%;
+	font-size:2.2em; 
+	text-align:center;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+}
+.footer
+{
+	background-color: black;
+}
+.footer div
+{
+
+}
+.margin
+{
+	height: 5%;
+}
+.footer .row
+{
+		margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+/* --end Revolving balls */
+
+/*Social sites*/
+.twitter
+{
+	padding-top: 3px;
+}
+.footer .social
+{
+	font-size:2.5em; 
+	text-align:center;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	margin-bottom: 4%;
+}
+.socialLinks li
+{
+	display:inline;
+	margin: 0px 5px;
+}
+.socialLinks
+{
+	text-align: center;
+}

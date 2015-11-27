@@ -1,0 +1,151 @@
+
+#content-wrapp{
+	padding:60px 10px 10px 10px;
+	border:1px solid #eee;
+}
+.preview-thumb{
+	height:60px;
+	width:60px;
+}
+
+.block-item.jumbotron{
+    padding:30px;
+    text-align: center;
+}
+.block-item .description{
+    font-size:15px;
+}
+.jumbotron.block-item:hover{
+    background:#ccc;
+}
+.content { 
+  overflow: hidden;
+}
+.columns { 
+  position: relative;
+  float: left;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+.c2 {
+  float: none;
+  overflow: hidden;
+  padding-right: 10px;
+  word-wrap: break-word;
+}
+.vertical-separator{
+	border-right: 1px solid #ccc;
+}
+.search-wrapp{
+	padding:5px 0px;
+}
+.thumb-wrapp{
+	padding:4px;
+	margin:4px;
+}
+.instruction-panel{
+	margin:10px;
+	background:#fCfCfC;
+	padding:5px;
+}
+.panel-heading{
+	font-size: 20px;
+	color:#fff;
+	background: #428bca;		
+}
+.resource-photo-wrapp{
+	margin:10px;
+}
+.draggable{
+	margin-bottom:0px !important;
+}
+.white-link{
+	color:#fff;
+}
+.white-link:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+.tag_input_field{
+	margin-bottom: 0px !important;
+}
+.tag_name{
+	cursor: pointer;
+}
+.alert.flash-msg{
+	margin:0px;
+}
+.cancel{
+	margin-left: 5px;
+	margin-right:-9px;
+}
+#tagnames{
+	margin-bottom: 5px;
+}
+.tag-wrapper{
+	padding-right: 5px;
+}
+.logo{
+	margin-top: -16px;
+}
+.add_resource_jumbotron{
+	height: 109px;
+}
+.instructions{
+	font-size: 14px;
+}
+.back-end a:hover{
+	text-decoration: none !important;
+}
+.option-wrapp{
+	padding:10px;
+}
+.remove-option{
+	cursor:pointer;
+	color:#428bca;
+}
+.question-wrapp{
+	padding: 10px;
+	background: #f7f7f7;
+	margin: 10px;
+}
+.question-label{
+	font-weight:bold;
+}
+.section-content{
+	padding:10px;
+}
+.quick-tip{
+	color:#3a87ad;
+	background:#d9edf7;
+	padding:10px;
+}
+.option-item{
+	padding-left:10px;
+}
+.option-item.text-danger, .option-item.text-success{
+	font-weight:bold;
+}
+.quiz-attempt-wrapp{
+	border:1px solid #eee;
+}
+.quiz-title{
+	padding:10px;
+	background:#eee;
+	font-weight:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.quiz-desc-wrapp{
+	padding:10px;
+}
+.question-wrapp.red label{
+	color:red;
+	font-weight:bold;
+}
+.thumb-wrapp.active{
+	background:#2d6ca2;
+}
+.thumb-wrapp.active img{
+	opacity:0.7;
+}

@@ -1,0 +1,56 @@
+.profilePic
+{
+	height: 140px;
+	width: 140px;
+	cursor: default;
+	background: #FFF;
+}
+
+.edit{
+	position: absolute;
+	font-size: 20px;
+	visibility: hidden;
+	 background: rgba(229, 106, 54, 0.72);
+	 width: 140px;
+	 margin-top: 100px;
+	 height: 40px;
+	  color: #fff;
+	  opacity: 0;
+	  text-align: center;
+	  padding-top: 5px;
+	  cursor: pointer;
+}
+.profilePic:hover .edit{
+	visibility: visible ;
+	opacity: 1;
+}
+.overRide
+{
+	position: fixed;
+	height: 100%;
+	width:100%;
+	background: #333;
+	opacity: 0.7;
+	display: none;
+}
+.frame{
+	height:300px;
+	width: 500px;
+	border: 1px dotted white;
+	margin: 50px 0px 0px 220px;
+	padding-left: 80px;
+	display: none;
+	position: fixed;
+	background: #FFF;
+	opacity: 0.9;
+	border-radius: 20px;
+
+}
+.form-group{
+	float: left;
+}
+.preview img
+{
+	height: 150px;
+	width: 150px;
+}

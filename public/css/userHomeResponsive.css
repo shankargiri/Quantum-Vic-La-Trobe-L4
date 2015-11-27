@@ -1,0 +1,288 @@
+@media all and (min-width: 1334px)
+{
+	.page1
+	{
+		height: 64% !important;
+	}
+}
+@media all and (max-width: 1174px)
+{
+	.hidethem
+	{
+		display: none;
+	}
+}
+@media all and (max-width: 1194px)
+{
+	.para{
+		font-size: 2.5em;
+	}
+}
+@media all and (max-width: 1148px)
+{
+	.para {
+		font-size: 2.5em;
+	}
+	.globe
+	{
+		width: 100%;
+	}
+	
+}
+@media all and (max-width: 1066px)
+{
+	.para {
+		font-size: 2.2em;
+	}
+}
+@media all and (max-width:1000px)
+{
+	.page1 .col-md-1
+	{
+		display: none;
+	}
+	.globe
+	{
+		width:100%;
+	}
+}
+@media (max-width:991px)
+{
+	.game
+	{
+		width: 66% !important;
+		float: left;
+		padding-top: 2%;
+		padding-bottom: 2%; 
+	}
+	.share
+	{
+		width: 100% !important;
+	}
+}
+@media all and (max-width: 882px)
+{
+	.top-demo div{
+		width: 75px; height: 75px;
+	}
+}
+@media all and (max-width: 838px)
+{
+	.game
+	{
+		width: 60% !important;
+	}
+}
+@media all and (max-width: 818px)
+{
+	.globe{
+		-webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+     background-size: cover;
+	}	
+}
+@media all and (max-width: 767px)
+{
+	.globe
+	{
+		text-align: center;
+	}
+	.links
+	{
+		width: 65% !important;
+		text-align: center;
+	}
+	.links li
+	{
+		margin-bottom: 8%; !important;
+	}
+}
+@media all and (max-width: 736px)
+{
+	.globe
+	{
+		background:url(../images/bg_top_img_blur.png) no-repeat ;
+		overflow: hidden;
+		-webkit-background-size: cover; 
+   -moz-background-size: cover; 
+   -o-background-size: cover; 
+     background-size: cover;
+	}
+	.links
+	{
+		margin-left: 20%;
+	}
+}
+@media all and (max-width: 714px)
+{
+	.game
+	{
+		width: 55% !important;
+	}
+}
+@media all and (max-width: 768px)
+{
+	.para
+	{
+		margin-left: -7% !important;
+	}
+	.jumbo{
+    
+    margin-left:-55px !important;
+    /*margin-right: 300px;*/
+}
+@media all and (max-width: 637px)
+{
+	.top-demo div{
+		width: 70px; height: 70px;
+	}
+	.links
+	{
+		width: 95% !important;
+		margin-left:5% !important;
+	}
+	.para
+	{
+		margin-left: -10% !important;
+	}
+
+}
+@media all and (max-width: 629px)
+{
+	
+	.hidethem
+	{
+		display: inline;
+	}
+	.top-demo div{
+		width: 60px; height: 60px;
+	}
+	.game
+	{
+		width: 100% !important;
+	}
+}
+@media all and (max-width: 619px)
+{
+	.top-demo div{
+		width: 55px; height: 55px;
+	}
+}
+@media all and (max-width:580px )
+{
+	.hideInMobile
+	{
+		display: none;
+	}
+	.top-demo div{
+		width: 70px; height: 70px;
+	}
+
+	.top-demo
+	{
+		padding-left: 26px !important;
+	}
+}
+@media all and (max-width:551px )
+{
+	.top-demo
+	{
+		padding-left: 6px !important;
+	}
+}
+@media all and (max-width:533px )
+{
+	.second{
+		display: none;
+	}
+	.game
+	{
+		font-size: 1.9em;
+	}
+	.top-demo div
+	{
+		width: 55px; height: 55px;
+	}
+	.hideInMobile
+	{
+		display: inline;
+	}
+
+	.top-demo
+	{
+		padding-left: 0px !important;
+	}
+}
+@media all and (max-width:494px )
+{
+	.game
+	{
+		font-size: 1.5em;
+	}
+	.top-demo div
+	{
+		width: 50px; height: 50px;
+	}
+	.social
+	{
+		font-size: 1.9em !important;
+	}
+}
+@media all and (max-width: 462px)
+{
+	.mobSecond
+	{
+		display: none;
+	}
+}
+@media all and (max-width: 405px)
+{
+	.hideInMobile
+	{
+		display: none;
+	}
+	.top-demo
+	{
+		padding-left: 15px !important;
+	}
+}
+@media all and (max-width: 363)
+{
+
+	.top-demo
+	{
+		padding-left: 5px !important;
+	}
+}
+@media all and (max-width: 353px)
+{
+	.top-demo
+	{
+		padding-left: 0px !important;
+	}
+	.game
+	{
+		
+		width: 100% !important;
+	}
+	.top-demo div
+	{
+		width: 34px; height: 34px;
+		padding-left: 1% !important;
+		padding-right: 0% !important;
+	}
+	.hideInMobile
+	{
+		display: inline;
+	}
+}
+@media all and (max-width: 331px)
+{
+	.top-demo div
+	{
+		width: 34px; height: 34px;
+		margin-left: 2px !important;
+		margin-right: 0% !important;
+	}
+}
